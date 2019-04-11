@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aba7605f-6baf-42a8-b5ad-8f71c780b81f">
+  <name>ИспользоватьПризнакРассмотрено</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать признак рассмотрено</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьПризнакРассмотрено</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.Встреча.Attribute.Удалить_Рассмотрено</content>
+  <content>Document.Встреча.Attribute.Удалить_РассмотретьПосле</content>
+  <content>Document.ЗапланированноеВзаимодействие.Attribute.Удалить_РассмотретьПосле</content>
+  <content>Document.ЗапланированноеВзаимодействие.Attribute.Удалить_Рассмотрено</content>
+  <content>Document.ТелефонныйЗвонок.Attribute.Удалить_Рассмотрено</content>
+  <content>Document.ТелефонныйЗвонок.Attribute.Удалить_РассмотретьПосле</content>
+  <content>Document.ЭлектронноеПисьмоВходящее.Attribute.Удалить_Рассмотрено</content>
+  <content>Document.ЭлектронноеПисьмоВходящее.Attribute.Удалить_РассмотретьПосле</content>
+  <content>Document.ЭлектронноеПисьмоИсходящее.Attribute.Удалить_Рассмотрено</content>
+  <content>Document.ЭлектронноеПисьмоИсходящее.Attribute.Удалить_РассмотретьПосле</content>
+  <content>Document.СообщениеSMS.Attribute.Удалить_РассмотретьПосле</content>
+  <content>Document.СообщениеSMS.Attribute.Удалить_Рассмотрено</content>
+  <content>InformationRegister.СостоянияПредметовВзаимодействий.Resource.КоличествоНеРассмотрено</content>
+  <content>InformationRegister.СостоянияПапокПисем.Resource.КоличествоНеРассмотрено</content>
+  <content>InformationRegister.СостоянияКонтактовВзаимодействий.Resource.КоличествоНеРассмотрено</content>
+</mdclass:FunctionalOption>

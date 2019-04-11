@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="845530cd-36fb-44c3-b30a-730985c9ca2d">
+  <producedTypes>
+    <managerType typeId="b7338f57-80fa-46ed-ad88-667a50de936c" valueTypeId="93f37375-2610-4a64-8b74-05d0b471c7cb"/>
+    <valueManagerType typeId="21b2bcd6-5b4e-4239-be05-4a100177a882" valueTypeId="45a80af5-90b0-4d56-95ed-75f8b581edad"/>
+  </producedTypes>
+  <name>ИспользоватьОтправкуSMSВШаблонахСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать отправку SMS в шаблонах сообщений</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

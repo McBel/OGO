@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f71ba01e-9f6b-4241-8048-4368c8888756">
+  <producedTypes>
+    <managerType typeId="c6df8e6e-746f-4ebc-a571-8acf04f7cfe1" valueTypeId="18e6701f-484f-4def-ba88-1846670df638"/>
+    <valueManagerType typeId="24293ad1-466a-4930-a4bd-9f706961dc08" valueTypeId="f1443e77-c263-45e0-804f-2102b4db6c2b"/>
+  </producedTypes>
+  <name>ИзменятьЗаданияЗаднимЧислом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменять задания задним числом</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <explanation>
+    <key>ru</key>
+    <value>Разрешить менять дату выполнения задач, а при изменении автора,
+			крайнего срока, важности и наименования задания изменять их в
+			выполняющихся задачах</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Разрешить менять дату выполнения задач</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

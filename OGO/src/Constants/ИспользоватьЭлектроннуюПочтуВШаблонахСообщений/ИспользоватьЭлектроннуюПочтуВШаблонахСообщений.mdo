@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f1a61dd-b04f-48ae-b0c0-17cf23bdb04b">
+  <producedTypes>
+    <managerType typeId="c4ce87d5-5934-4c10-b547-e52371c31e3c" valueTypeId="589df104-69ba-4d72-a9ae-f51e76882b53"/>
+    <valueManagerType typeId="f2567a54-5a5d-4f54-9265-dd158169a29f" valueTypeId="c6c1083d-4054-41ce-9236-ec6288b23bf6"/>
+  </producedTypes>
+  <name>ИспользоватьЭлектроннуюПочтуВШаблонахСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать электронную почту в шаблонах сообщений</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
