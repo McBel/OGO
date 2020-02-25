@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd78fd99-f0af-4bef-a294-50ce8dfd375e">
+  <producedTypes>
+    <refType typeId="bef67237-9f52-46bd-a584-c990fb41ead8" valueTypeId="25c2e1d7-1021-4030-ac28-039cd03f6923"/>
+    <listType typeId="619f79cd-2ba8-4077-96f8-dc8b9c0b6363" valueTypeId="9e765fd4-1983-444c-9f3b-ee8649ca2852"/>
+    <managerType typeId="fde6f860-d805-4cce-9f89-ec0f3b4dc82d" valueTypeId="f8210fa7-86c4-4cba-ab95-04dad78e5e01"/>
+  </producedTypes>
+  <name>АИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Иниформационные Системы Общих Данных</value>
+  </synonym>
+  <comment>ИС с которыми может производится минхронизация/обмен данными</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9581fa62-3284-4aa7-95e4-7ba2f3050647">
+    <name>ОГО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОГО</value>
+    </synonym>
+    <comment> Эта ИС</comment>
+  </enumValues>
+  <enumValues uuid="5adecfd3-c0be-4b92-a831-a0b90d17f3ad">
+    <name>АГПС</name>
+    <synonym>
+      <key>ru</key>
+      <value>АГПС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f40d3b2-39de-4492-9b56-2afaaf90e2e9">
+    <name>ГРО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГРО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c794f87f-d689-4a9f-a766-9ceb30158de2">
+    <name>РГ</name>
+    <synonym>
+      <key>ru</key>
+      <value>РГ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="42f277ab-ca04-4b4e-814d-d55bb78ab658">
+    <name>РНГ</name>
+    <synonym>
+      <key>ru</key>
+      <value>РНГ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

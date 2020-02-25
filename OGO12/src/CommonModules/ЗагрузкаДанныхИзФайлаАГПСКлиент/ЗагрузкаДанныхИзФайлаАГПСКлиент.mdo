@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule
+	xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="e9785db9-7bd1-48cf-8ca9-62ccc4918527">
+	<name>ЗагрузкаДанныхИзФайлаАГПСКлиент</name>
+	<synonym>
+		<key>ru</key>
+		<value>Загрузка данных из файла АГПСКлиент</value>
+	</synonym>
+	<clientManagedApplication>true</clientManagedApplication>
+	<clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

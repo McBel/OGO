@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor
+	xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="5125db5f-345f-402d-8eef-0a04f8725a3b">
+	<producedTypes>
+		<objectType typeId="1a7a4356-900d-4cb0-bda4-dd52bac60723"
+			valueTypeId="777eaa1d-030d-4790-bb72-cb15686841a5" />
+		<managerType typeId="aba196c4-fda7-4440-be8f-ef09f1a33685"
+			valueTypeId="0bd0721c-63ff-485f-8928-45be95865d95" />
+	</producedTypes>
+	<name>ЗагрузкаДанныхИзФайлаАГПС</name>
+	<synonym>
+		<key>ru</key>
+		<value>Загрузка данных из файла АГПС</value>
+	</synonym>
+	<useStandardCommands>true</useStandardCommands>
+	<defaultForm>DataProcessor.ЗагрузкаДанныхИзФайлаАГПС.Form.ЗагрузкаДанныхИзФайлаАГПС</defaultForm>
+	<help>
+		<pages>
+			<lang>ru</lang>
+		</pages>
+	</help>
+	<explanation>
+		<key>ru</key>
+		<value>Загрузка справочной информации из табличных документов (файлы
+			Microsoft Office Excel, Microsoft Office Word, OpenOffice Calc и др.)
+			в справочники программы.</value>
+	</explanation>
+	<forms uuid="b38a6e2a-34d6-4d2b-9d36-334f1c77f7ab">
+		<name>ЗагрузкаДанныхИзФайлаАГПС</name>
+		<synonym>
+			<key>ru</key>
+			<value>Загрузка данных из файла АГПС</value>
+		</synonym>
+		<help>
+			<pages>
+				<lang>ru</lang>
+			</pages>
+		</help>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+	</forms>
+	<forms uuid="b2543544-62cd-41ce-85a6-644ebac8ca88">
+		<name>ВыборКолонок</name>
+		<synonym>
+			<key>ru</key>
+			<value>Выбор колонок сопоставления</value>
+		</synonym>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+	</forms>
+	<forms uuid="cbc2a236-5780-4a5e-b0a4-7956b1d3785d">
+		<name>РазрешенияНеоднозначностей</name>
+		<synonym>
+			<key>ru</key>
+			<value>Разрешения неоднозначностей</value>
+		</synonym>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+	</forms>
+	<forms uuid="d789ad1a-5eb1-47db-9372-798877b3730d">
+		<name>РасширениеФайла</name>
+		<synonym>
+			<key>ru</key>
+			<value>Расширение файла</value>
+		</synonym>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+	</forms>
+	<forms uuid="7d954868-7702-4cdc-9a97-7376aa7179f4">
+		<name>РедактированиеБланка</name>
+		<synonym>
+			<key>ru</key>
+			<value>Редактирование бланка</value>
+		</synonym>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+	</forms>
+	<templates uuid="6c6c6df8-4e0c-4262-b706-061fe0d86410">
+		<name>ПростойШаблон</name>
+		<synonym>
+			<key>ru</key>
+			<value>Простой шаблон</value>
+		</synonym>
+	</templates>
+	<commands uuid="b10d44a9-6fe0-4428-8cd9-97d6e6906002">
+		<name>ЗагрузкаДанныхИзФайла</name>
+		<synonym>
+			<key>ru</key>
+			<value>Загрузка данных из файла</value>
+		</synonym>
+		<group>NavigationPanelOrdinary</group>
+		<commandParameterType />
+		<representation>Auto</representation>
+		<toolTip>
+			<key>ru</key>
+			<value>Загрузка справочной информации из табличных документов (файлы
+				Microsoft Office Excel, Microsoft Office Word, OpenOffice Calc и
+				др.) в справочники программы.</value>
+		</toolTip>
+		<shortcut></shortcut>
+	</commands>
+</mdclass:DataProcessor>

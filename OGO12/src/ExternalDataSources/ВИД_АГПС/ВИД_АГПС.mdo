@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataSource
+	xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="553d973e-a492-49d9-9fa5-ab3e35c3b605">
+	<producedTypes>
+		<managerType typeId="998a86c1-2f22-47a3-9a0b-64c213eb7339"
+			valueTypeId="20c5ba85-866f-4b44-a50a-0015a324e4ce" />
+		<tablesManagerType
+			typeId="b81ce56c-139a-4c82-9bae-46f6a2717e24"
+			valueTypeId="0657c8f8-21a2-4423-88c4-70219a638785" />
+		<cubesManagerType
+			typeId="8fd61c97-fe22-4249-a83c-e047b063fc93"
+			valueTypeId="5e299508-ae8c-44f9-9a82-3c2c9dd80015" />
+	</producedTypes>
+	<name>ВИД_АГПС</name>
+	<synonym>
+		<key>ru</key>
+		<value>ВИД АГПС</value>
+	</synonym>
+</mdclass:ExternalDataSource>

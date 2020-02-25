@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a286b463-4f1c-4aa5-a046-8776c51dd45d">
+  <producedTypes>
+    <objectType typeId="03217aa8-6107-4ee7-bc0a-52cf3833a465" valueTypeId="b48f6ef6-1d7e-44ad-b595-17021cb6d5d8"/>
+    <refType typeId="1571a361-4d37-4203-8c28-885dd10847ca" valueTypeId="3809f8a2-1b76-4f40-9c86-8cfbd931f2e2"/>
+    <selectionType typeId="aeec439c-18b4-4946-8c0a-0ebd50f0090d" valueTypeId="38653a46-22f5-4864-9334-79386c41c614"/>
+    <listType typeId="1525a3a4-2c4c-401d-9bcb-9c50c1a7eb05" valueTypeId="73da03fb-e37d-4960-bb0b-74912031fe99"/>
+    <managerType typeId="05917379-2e15-4721-9fe0-616a3cc896bf" valueTypeId="02a6ff14-fbf1-447b-ae1e-406001b7aebb"/>
+  </producedTypes>
+  <name>ТипыОбектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы обектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыОбектов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТипыОбектов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>30</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="75ee9665-281d-4cac-b08c-2a8aaed2666d">
+      <name>GP</name>
+      <description>Газопроводы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="a97d2d19-d241-44d0-a554-0430c0abaed4">
+      <name>GPU</name>
+      <description>GPU</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="e212340d-0a54-4b46-a0bc-503e4f383b99">
+      <name>PRG</name>
+      <description>пункты редуцирования газа</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+      <content id="ea1132e6-b4c1-425b-a009-e0de90c2b083">
+        <name>GRP</name>
+        <description>GRP</description>
+        <code xsi:type="core:StringValue">
+          <value>000000004</value>
+        </code>
+      </content>
+      <content id="c58f29b0-28ca-410e-892d-644526d3dab6">
+        <name>GRU</name>
+        <description>GRU</description>
+        <code xsi:type="core:StringValue">
+          <value>000000005</value>
+        </code>
+      </content>
+      <content id="da49d31b-b582-4820-a9d5-07d51ee74895">
+        <name>SHP</name>
+        <description>SHP</description>
+        <code xsi:type="core:StringValue">
+          <value>000000006</value>
+        </code>
+      </content>
+    </items>
+    <items id="b4efcdd5-7039-4c7e-a771-09162a204326">
+      <name>GBU</name>
+      <description>Газобаллонные установки</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="8f45bfc8-dcdd-4c92-bffd-b313f6fd90cd">
+      <name>ARM</name>
+      <description>запорная арматура</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="ec48515d-75f9-4bf8-beaa-322f6d9cb9aa">
+      <name>SCH</name>
+      <description>Счетчики газа</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="06e839cf-bee0-423c-9eeb-07def86d0193">
+      <name>DOP</name>
+      <description>допработы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="e22beab0-14d0-4a36-975d-3a34f5a665b2">
+      <name>PRM</name>
+      <description>PRM</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="0a88a8a5-18a1-46c6-a1b8-2ff1b9b677cd">
+      <name>KIP</name>
+      <description>KIP</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="a58a69a6-333f-4602-a903-58659a840122">
+      <name>SKZ</name>
+      <description>SKZ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000013</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

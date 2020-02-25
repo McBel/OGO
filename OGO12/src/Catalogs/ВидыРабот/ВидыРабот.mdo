@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f79cfdb9-8635-495c-8f88-89995940e71c">
+  <producedTypes>
+    <objectType typeId="b3809001-716d-4fb4-b6f4-c033a2f83ee8" valueTypeId="86b09aa6-c9a7-40c4-aff1-d7b3bba1ea72"/>
+    <refType typeId="92fd8622-521a-4122-b411-142bb7d3e2af" valueTypeId="fdbc1191-9c50-4fac-8ec5-5c058b5e48e1"/>
+    <selectionType typeId="7dcb3558-5478-4ef0-af49-ddcca869ff19" valueTypeId="db68793c-d0f5-4edd-ac30-f46c772077bf"/>
+    <listType typeId="008c6a80-84b0-45ea-a675-478cc2632fff" valueTypeId="7c79e4e5-3dc1-40ed-a6b2-778449d76fbd"/>
+    <managerType typeId="9a267fd9-3999-4443-9f6b-acf984fc62ee" valueTypeId="7b7fc8cb-4480-4d11-82ca-46f67e0b1660"/>
+  </producedTypes>
+  <name>ВидыРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды работ ТО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыРабот.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыРабот.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>13</codeLength>
+  <descriptionLength>125</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e012bf28-e234-4fd7-a825-3f996d74b24d">
+    <name>V_RABOT</name>
+    <synonym>
+      <key>ru</key>
+      <value>V RABOT</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="388e9ca2-ca4d-4d47-a4b6-e895c1b71ecc">
+    <name>CODE_Rabot</name>
+    <synonym>
+      <key>ru</key>
+      <value>CODE rabot</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f0af8989-2254-4e4e-90f3-a652bd6c9aa6">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>125</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0f793828-0b29-4b94-a74d-e873450bcc17">
+    <name>ТипОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыОбектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="362ed5fa-e4fe-4932-8e80-dc33f2446e01">
+    <name>Плановая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановая работа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="96029062-eaf2-420c-8f4c-87665fe2803d">
+    <name>Заявочная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявочная работа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a7b84858-5ef9-49ec-8a28-85dcafbc1598">
+    <name>STATUS</name>
+    <synonym>
+      <key>ru</key>
+      <value>STATUS</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3a3ae750-3d16-457d-a7f7-bbf81b66553e">
+    <name>STATUS2</name>
+    <synonym>
+      <key>ru</key>
+      <value>STATUS2</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="70a0ceef-0dbb-426e-a7e5-e5ab87c48f02">
+    <name>NORMA_V</name>
+    <synonym>
+      <key>ru</key>
+      <value>NORMA V</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>6</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister
+	xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="1dfc3601-8d2a-455b-b3af-93782f1d7bab">
+	<producedTypes>
+		<selectionType
+			typeId="1278281e-0c5e-41b6-83c6-8e45ab9ef870"
+			valueTypeId="3539dd06-c19e-44ce-86e8-ada674a96997" />
+		<listType typeId="32c7b3cd-e6da-4ab8-95bd-c797a9570ee4"
+			valueTypeId="2bfe6709-5533-4259-a095-a50ebc0a2e29" />
+		<managerType typeId="2e9881d5-4c18-4082-a4d6-cda43d29eeb8"
+			valueTypeId="24ec9879-cd66-4ed8-879d-1ef7e431f370" />
+		<recordSetType
+			typeId="c50f0b5c-ebf8-4a87-99a2-b4b2721fc546"
+			valueTypeId="4fb759f0-a1c8-4247-9b79-d9192e6a90e9" />
+		<recordKeyType
+			typeId="0f2cc068-149f-4b0f-b7be-6c79ae423fe9"
+			valueTypeId="d4151f93-2baa-42dd-b465-f54893ef3318" />
+		<recordType typeId="ce2e6f93-bcdd-4873-95c7-226cc5906ad9"
+			valueTypeId="e46667b6-6d1b-4dbc-8639-b9169fc38049" />
+		<recordManagerType
+			typeId="1f87cdda-d058-4724-bf6f-a654fe5a6f49"
+			valueTypeId="a1a7e357-ba14-421a-8d3d-0c39ee888ebc" />
+	</producedTypes>
+	<name>Прейскурант</name>
+	<synonym>
+		<key>ru</key>
+		<value>Прейскурант на работы</value>
+	</synonym>
+	<dataHistory>Use</dataHistory>
+	<useStandardCommands>true</useStandardCommands>
+	<informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+	<writeMode>RecorderSubordinate</writeMode>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<enableTotalsSliceFirst>true</enableTotalsSliceFirst>
+	<enableTotalsSliceLast>true</enableTotalsSliceLast>
+	<resources uuid="671f4ab6-a540-4eb4-afca-4c4f44520a16">
+		<name>Стоимость</name>
+		<synonym>
+			<key>ru</key>
+			<value>Стоимость без НДС</value>
+		</synonym>
+		<type>
+			<types>Number</types>
+			<numberQualifiers>
+				<precision>11</precision>
+				<scale>2</scale>
+				<nonNegative>true</nonNegative>
+			</numberQualifiers>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</resources>
+	<dimensions uuid="244d82f3-312f-41c6-9777-51725098455c">
+		<name>ВидРабот</name>
+		<synonym>
+			<key>ru</key>
+			<value>Вид работ</value>
+		</synonym>
+		<type>
+			<types>CatalogRef.ВидыРабот</types>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+		<mainFilter>true</mainFilter>
+	</dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor
+	xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="5fd9b77d-bd40-4ca4-9156-291084c08204">
+	<producedTypes>
+		<objectType typeId="46a98b45-3645-46bf-a7a1-24e5b6032242"
+			valueTypeId="82181ec1-b0f9-4ce0-b590-a5a9829e4981" />
+		<managerType typeId="ee5f4f31-6ae5-4ea9-bf8f-9376702b9430"
+			valueTypeId="f9645525-fb06-4eba-9b19-7986f7bf66c4" />
+	</producedTypes>
+	<name>ЗагрузкаСправочниковАГПС</name>
+	<synonym>
+		<key>ru</key>
+		<value>Загрузка справочников АГПС</value>
+	</synonym>
+	<useStandardCommands>true</useStandardCommands>
+	<attributes uuid="23f318e3-a5ec-4384-bf39-3b9e887deab2">
+		<name>ФайлДБФ</name>
+		<synonym>
+			<key>ru</key>
+			<value>Файл ДБФ</value>
+		</synonym>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>256</length>
+			</stringQualifiers>
+		</type>
+	</attributes>
+	<attributes uuid="fcefe04f-9594-4f69-b3ab-171e93ab5c0a">
+		<name>Справочник</name>
+		<synonym>
+			<key>ru</key>
+			<value>Справочник</value>
+		</synonym>
+		<type>
+			<types>CatalogRef</types>
+		</type>
+	</attributes>
+	<tabularSections
+		uuid="b6c03761-a1eb-4b5d-a312-0d958a6136df">
+		<producedTypes>
+			<objectType typeId="0c4824dd-fdc1-4d33-b80d-df3945ac084c"
+				valueTypeId="ca4220df-d65d-44d3-91d4-70cff1841761" />
+			<rowType typeId="d144abd0-2461-4ff6-8108-064a75e64794"
+				valueTypeId="1fffe65a-2b2e-4619-9f85-0c7e0d097975" />
+		</producedTypes>
+		<name>СоответствияПолей</name>
+		<synonym>
+			<key>ru</key>
+			<value>Соответствия полей</value>
+		</synonym>
+		<attributes uuid="a7e13c3c-9e62-416e-b073-71db3a973c64">
+			<name>ПолеИсточник</name>
+			<synonym>
+				<key>ru</key>
+				<value>Поле источник</value>
+			</synonym>
+			<type>
+				<types>String</types>
+				<stringQualifiers>
+					<length>25</length>
+				</stringQualifiers>
+			</type>
+		</attributes>
+		<attributes uuid="9784480e-8164-4fdb-81c5-451c2c4854f7">
+			<name>ПолеПриемник</name>
+			<synonym>
+				<key>ru</key>
+				<value>Поле приемник</value>
+			</synonym>
+			<type>
+				<types>String</types>
+				<stringQualifiers>
+					<length>25</length>
+				</stringQualifiers>
+			</type>
+		</attributes>
+	</tabularSections>
+</mdclass:DataProcessor>

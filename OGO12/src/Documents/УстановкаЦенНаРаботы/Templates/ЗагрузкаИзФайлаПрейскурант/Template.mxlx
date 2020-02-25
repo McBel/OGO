@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>5</size>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<detailParameter>ВидРабот</detailParameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>1</f>
+					<tl/>
+					<detailParameter>Цена</detailParameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl/>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content/>
+						</v8:item>
+					</tl>
+					<detailParameter>V_RABOT</detailParameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<templateMode>true</templateMode>
+	<height>1</height>
+	<vgRows>1</vgRows>
+	<namedItem xsi:type="NamedItemCells">
+		<name>CODE</name>
+		<area>
+			<type>Rectangle</type>
+			<beginRow>0</beginRow>
+			<endRow>0</endRow>
+			<beginColumn>3</beginColumn>
+			<endColumn>3</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>COST</name>
+		<area>
+			<type>Rectangle</type>
+			<beginRow>0</beginRow>
+			<endRow>0</endRow>
+			<beginColumn>1</beginColumn>
+			<endColumn>1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>D_START</name>
+		<area>
+			<type>Rectangle</type>
+			<beginRow>0</beginRow>
+			<endRow>0</endRow>
+			<beginColumn>2</beginColumn>
+			<endColumn>2</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>V_RABOT</name>
+		<area>
+			<type>Rectangle</type>
+			<beginRow>0</beginRow>
+			<endRow>0</endRow>
+			<beginColumn>4</beginColumn>
+			<endColumn>4</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>КодВидаРабот</name>
+		<area>
+			<type>Rectangle</type>
+			<beginRow>0</beginRow>
+			<endRow>0</endRow>
+			<beginColumn>0</beginColumn>
+			<endColumn>0</endColumn>
+		</area>
+	</namedItem>
+	<font faceName="" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<format>
+		<font>0</font>
+	</format>
+	<format>
+		<font>1</font>
+	</format>
+</document>

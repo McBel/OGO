@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02ac8da6-e0e6-4229-b4ee-27a73535a089">
+  <producedTypes>
+    <refType typeId="90ffb08c-527f-4fd7-8c97-0c922e04b1e3" valueTypeId="0a6ebfe7-1d23-4689-8420-dcdc29b386a0"/>
+    <listType typeId="2567f25a-7f3d-4a78-ace2-a8b8ab78f527" valueTypeId="577f0a40-cf1f-4089-a6c6-375302c0f9c0"/>
+    <managerType typeId="8b50a642-50e5-44c1-9e4a-0c60d3470475" valueTypeId="0c58fe4d-ef8e-4f00-b398-be2e4f18ed7a"/>
+  </producedTypes>
+  <name>НаправленияОбменаДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Направления обмена данными</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6355c992-b071-4006-b49f-c0a68388442b">
+    <name>Туда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Туда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92574264-e839-4897-8116-05f74df5e1ae">
+    <name>Сюда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сюда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c4e19fc-c855-4301-8374-4f9c5fc24302">
+    <name>ТудаИОбратно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Туда и обратно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
