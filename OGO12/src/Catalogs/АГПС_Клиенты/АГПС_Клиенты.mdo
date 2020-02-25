@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog
+	xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="b4bd8248-59c8-4d7a-822c-9a53f11a5674">
+	<producedTypes>
+		<objectType typeId="9054b63a-a900-4213-acba-13d103257d29"
+			valueTypeId="e6f4441a-4d4f-4f79-a47f-20915ea9b214" />
+		<refType typeId="8f700f7c-fbc1-4a01-a37a-02eed1d31459"
+			valueTypeId="0c7dd0c0-544a-47ab-b82c-a407b62015e3" />
+		<selectionType
+			typeId="243602cb-ee9e-4311-bb41-93c3843cb305"
+			valueTypeId="02ebb727-ca6e-4dd8-a406-ccd90cb8f3b0" />
+		<listType typeId="7b89cd47-63ab-4f53-9e7b-d72a320375ff"
+			valueTypeId="b33a1d75-3918-4f93-96a9-7fcd4a0b039b" />
+		<managerType typeId="d15bc3ba-834f-485d-847f-db423b9b69f3"
+			valueTypeId="6948eb0e-7cdc-4d9a-979d-e0b6cc47fb19" />
+	</producedTypes>
+	<name>АГПС_Клиенты</name>
+	<synonym>
+		<key>ru</key>
+		<value>АГПС клиенты</value>
+	</synonym>
+	<useStandardCommands>true</useStandardCommands>
+	<inputByString>Catalog.АГПС_Клиенты.StandardAttribute.Code</inputByString>
+	<inputByString>Catalog.АГПС_Клиенты.StandardAttribute.Description</inputByString>
+	<fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+	<createOnInput>Use</createOnInput>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<fullTextSearch>Use</fullTextSearch>
+	<levelCount>2</levelCount>
+	<foldersOnTop>true</foldersOnTop>
+	<codeLength>9</codeLength>
+	<descriptionLength>25</descriptionLength>
+	<codeType>String</codeType>
+	<codeAllowedLength>Variable</codeAllowedLength>
+	<checkUnique>true</checkUnique>
+	<autonumbering>true</autonumbering>
+	<defaultPresentation>AsDescription</defaultPresentation>
+	<editType>InDialog</editType>
+	<choiceMode>BothWays</choiceMode>
+	<attributes uuid="0379b4e7-94e4-46b4-b7cd-7050698d7a13">
+		<name>UIN</name>
+		<synonym>
+			<key>ru</key>
+			<value>UIN</value>
+		</synonym>
+		<type>
+			<types>String</types>
+			<stringQualifiers />
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="619778e7-5e91-4915-b296-24f8bb1cd375">
+		<name>account</name>
+		<synonym>
+			<key>ru</key>
+			<value>Account</value>
+		</synonym>
+		<type>
+			<types>Number</types>
+			<numberQualifiers>
+				<precision>6</precision>
+				<nonNegative>true</nonNegative>
+			</numberQualifiers>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="3e4326f7-339c-4896-b8c0-0bb951c4a879">
+		<name>IndCompany</name>
+		<synonym>
+			<key>ru</key>
+			<value>Ind company</value>
+		</synonym>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>30</length>
+			</stringQualifiers>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="97dc7255-e60e-46b4-bfe7-62b477283eb3">
+		<name>Company</name>
+		<synonym>
+			<key>ru</key>
+			<value>Company</value>
+		</synonym>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>200</length>
+			</stringQualifiers>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="45090a70-cc49-4961-a1f2-573c17e384ff">
+		<name>Inn_code</name>
+		<synonym>
+			<key>ru</key>
+			<value>Inn code</value>
+		</synonym>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>20</length>
+			</stringQualifiers>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="699ee659-54b4-4041-b417-bc392bdb4afc">
+		<name>Adres</name>
+		<synonym>
+			<key>ru</key>
+			<value>Adres</value>
+		</synonym>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>100</length>
+			</stringQualifiers>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="d1fc6562-9316-4756-8745-17347f293637">
+		<name>PostAdres</name>
+		<synonym>
+			<key>ru</key>
+			<value>Post adres</value>
+		</synonym>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>100</length>
+			</stringQualifiers>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="418015f8-3638-43cd-a1f5-dea46b407e25">
+		<name>Fone</name>
+		<synonym>
+			<key>ru</key>
+			<value>Fone</value>
+		</synonym>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>50</length>
+			</stringQualifiers>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="1926d2e8-f595-47ea-8b55-3dfeef26f4ac">
+		<name>Boss</name>
+		<synonym>
+			<key>ru</key>
+			<value>Boss</value>
+		</synonym>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>40</length>
+			</stringQualifiers>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="a38117da-8f22-4771-a8fa-8d2845fcdc50">
+		<name>reg_code</name>
+		<synonym>
+			<key>ru</key>
+			<value>Reg code</value>
+		</synonym>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>2</length>
+			</stringQualifiers>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="65c7ca79-7721-494d-9cf4-e80029b84516">
+		<name>budjet_cod</name>
+		<synonym>
+			<key>ru</key>
+			<value>Budjet cod</value>
+		</synonym>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>30</length>
+			</stringQualifiers>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="4705c575-0b78-4230-a58f-477311204700">
+		<name>Rq_account</name>
+		<synonym>
+			<key>ru</key>
+			<value>Rq account</value>
+		</synonym>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>20</length>
+			</stringQualifiers>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="1ee06b61-e9f8-4ffe-8e2f-ceeae71f338b">
+		<name>Rq_mfo</name>
+		<synonym>
+			<key>ru</key>
+			<value>Rq mfo</value>
+		</synonym>
+		<comment>БИК</comment>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>9</length>
+			</stringQualifiers>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="c8d06e2c-b2df-4962-8e1b-ca0a278a066b">
+		<name>Rq_acbank</name>
+		<synonym>
+			<key>ru</key>
+			<value>Rq acbank</value>
+		</synonym>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>20</length>
+			</stringQualifiers>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="fb188139-d3c6-4923-be28-c4cec998ce05">
+		<name>Rq_bank</name>
+		<synonym>
+			<key>ru</key>
+			<value>Rq bank</value>
+		</synonym>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>100</length>
+			</stringQualifiers>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="6f906ab9-a38f-40ed-b3d0-1b3bc2794481">
+		<name>Rq_bankadr</name>
+		<synonym>
+			<key>ru</key>
+			<value>Rq bankadr</value>
+		</synonym>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>100</length>
+			</stringQualifiers>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="6767d840-8db1-495f-8b84-913ed8c4690b">
+		<name>Rq_corresp</name>
+		<synonym>
+			<key>ru</key>
+			<value>Rq corresp</value>
+		</synonym>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>250</length>
+			</stringQualifiers>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="8b88c0cc-8f2c-4a4f-9c89-f8a983a67b0f">
+		<name>Usrname</name>
+		<synonym>
+			<key>ru</key>
+			<value>Usrname</value>
+		</synonym>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>50</length>
+			</stringQualifiers>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="5f17b5df-ae82-4b80-b6fb-d6719da5af11">
+		<name>Typeclirec</name>
+		<synonym>
+			<key>ru</key>
+			<value>Typeclirec</value>
+		</synonym>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>10</length>
+			</stringQualifiers>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+</mdclass:Catalog>

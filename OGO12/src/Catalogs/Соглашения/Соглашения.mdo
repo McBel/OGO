@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="340de931-fb40-47b1-90ea-9b75ba4752dc">
+  <producedTypes>
+    <objectType typeId="53f5a001-467f-45bd-8127-47a154233ec3" valueTypeId="bf4810e6-7c2b-4d27-a45c-87ef8d92a04b"/>
+    <refType typeId="4779a528-eed4-4676-9cfd-e93249ab0e46" valueTypeId="b0100b8e-cc87-4bc8-974c-729c799ec475"/>
+    <selectionType typeId="ab1e472e-615e-4c73-8d3d-90a7c055fb0d" valueTypeId="7f638381-c9e1-4ff9-8ff0-42576165eb65"/>
+    <listType typeId="e487abe4-aec0-4a3e-a866-0f7ec317605c" valueTypeId="f94c27c2-90b8-4519-8a4c-740d037be1ab"/>
+    <managerType typeId="70f0c0ff-f308-42b0-ab50-2e0b76734978" valueTypeId="f119af64-2f45-484a-9885-ab18806a870d"/>
+  </producedTypes>
+  <name>Соглашения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соглашения по Лицевым Счетам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Соглашения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>21</codeLength>
+  <descriptionLength>125</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d945108e-7030-44fd-b27d-543c1dc6314b">
+    <name>Активный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активный</value>
+    </synonym>
+    <comment>Активный или Архивный</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab23eb80-5719-4814-baef-4bf6d38d0c80">
+    <name>ИсточникДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник данных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>CatalogRef.Пользователи</types>
+      <types>EnumRef.АИС</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

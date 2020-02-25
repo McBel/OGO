@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6b6f776-c447-4298-8f8c-0fd16fc23ea6">
+  <producedTypes>
+    <objectType typeId="d577612b-4849-4b2d-853a-23c8087eec1b" valueTypeId="f5a62c68-8382-489b-8105-ba4917ff6e2f"/>
+    <refType typeId="6e75bc8c-7149-4c00-99b8-df9d3735cd0a" valueTypeId="ff72b00f-0001-45eb-baf2-a455f7e7fab2"/>
+    <selectionType typeId="fb0bcd7c-40ef-4600-bb00-54bb5db06953" valueTypeId="47e7a949-d8a1-4854-be04-ee5c93890972"/>
+    <listType typeId="838830e2-653f-4b35-91c8-38d1131cc01a" valueTypeId="8e5c69bd-1587-4f65-9a88-5ac902dc574e"/>
+    <managerType typeId="6816c460-6064-471c-9ffe-fca0b9671672" valueTypeId="92581896-11b1-4d41-8a23-1ed0eedc4d92"/>
+  </producedTypes>
+  <name>ПаспортОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав реквизитов паспорто объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПаспортОбъекта.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПаспортОбъекта.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <explanation>
+    <key>ru</key>
+    <value>Для задания наборов свойств объектов и  порядка их отображения</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e7768c73-11cd-4e83-96a8-ab53b4f0f646">
+    <name>ТипОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыОбектов</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

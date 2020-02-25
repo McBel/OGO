@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ead498ee-92de-4426-9db9-05bfaf4d8cf8">
+  <producedTypes>
+    <selectionType typeId="7b982e35-442f-4451-abf3-f77eac0b6b26" valueTypeId="6e3d1808-3ebe-43b9-8f2b-e88f33b7e480"/>
+    <listType typeId="c560c144-5355-403b-a5a5-91faebddc5fa" valueTypeId="4afcf71f-8732-4f40-a037-ac96b6f8df92"/>
+    <managerType typeId="b4fac7c9-57d2-4c89-bb20-a6f8b5e5652c" valueTypeId="10f6d7ed-38a1-4a9d-9f9e-5852cb4127c7"/>
+    <recordSetType typeId="d9aa3d78-48ec-4305-b0af-295b25ca4ba1" valueTypeId="be971122-f32d-44c6-bb5f-ef087c4ae3f3"/>
+    <recordKeyType typeId="65685ea1-d334-4e68-aa3a-06339f8be851" valueTypeId="82e0112b-2f22-42c9-9c73-acd1cc5bf057"/>
+    <recordType typeId="8445f4f5-4040-47c2-8bdc-8fd23ca0f534" valueTypeId="b6efb5f6-0c8e-46c6-9e6e-94a85f89cb47"/>
+    <recordManagerType typeId="15b0a6d0-761b-4846-8946-54961d637ea4" valueTypeId="d149b8f5-1068-48f2-ab45-d3eb150770a0"/>
+  </producedTypes>
+  <name>ПараметрыСинхронизацииСоглашений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры синхронизации соглашений</value>
+  </synonym>
+  <dataHistory>Use</dataHistory>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="cf507dc8-8373-4cf1-a8d6-a9e64a862de3">
+    <name>УИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>УИД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="f3702366-41ad-4fc2-8c8f-67aa396e5ed6">
+    <name>Представление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>21</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <attributes uuid="6251c700-25db-4adc-844b-cd8f5271542b">
+    <name>ИсточникДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник данных</value>
+    </synonym>
+    <comment>Тот кто внес изменения данных</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+      <types>String</types>
+      <types>EnumRef.АИС</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <dimensions uuid="c6c35866-7436-4f9e-8c3e-a69be398955f">
+    <name>Соглашение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соглашение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Соглашения</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fcfabaac-6514-4bd8-901c-6819882a0937">
+    <name>АИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>АИС</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АИС</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6e1b82ec-0443-472b-9d39-96d6266bd292">
+    <name>Направление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление обмена данными</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НаправленияОбменаДанными</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

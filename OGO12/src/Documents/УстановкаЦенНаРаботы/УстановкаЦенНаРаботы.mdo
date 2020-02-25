@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69f96f0c-547f-4f82-b07a-af77ea478e53">
+  <producedTypes>
+    <objectType typeId="4b69caa8-7e3e-49dd-8a5c-f4671de929bf" valueTypeId="4782f952-a4b8-49bb-b34c-4a889699e9d3"/>
+    <refType typeId="a1914cf5-586b-46c0-a7dc-0bc15c42c694" valueTypeId="54ef061c-58e0-4715-b0d5-dcf013787be4"/>
+    <selectionType typeId="5a8d2cef-da85-4071-a12c-5f4804fa3911" valueTypeId="5cc26e6e-da1b-4696-81ed-b462a245cbd8"/>
+    <listType typeId="a53f1fc2-3886-4f99-91da-d20fa510f1f8" valueTypeId="7dcc9134-328d-45db-90f3-0a9dd292de2e"/>
+    <managerType typeId="52a97744-4e7e-4609-8b1b-2986e0d693d9" valueTypeId="962f5c59-404d-484d-8e83-39f552aa418a"/>
+  </producedTypes>
+  <name>УстановкаЦенНаРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка цен на работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаЦенНаРаботы.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаЦенНаРаботы.Form.ФормаДокумента</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.Прейскурант</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="d9bf30a2-af75-4239-b4a3-713a9501abce">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="86aa4562-f86e-4674-b9f1-aa6c301293bc">
+    <producedTypes>
+      <objectType typeId="a9e98edc-6b43-4071-ac78-81cd78075286" valueTypeId="91dc6b22-f87d-4f57-927c-906030bf9201"/>
+      <rowType typeId="529b3b9a-1a8c-4838-8755-b87fcd679e6f" valueTypeId="d52cf7fc-1487-49c2-a09e-7c7be72e45a6"/>
+    </producedTypes>
+    <name>Прейскурант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прейскурант</value>
+    </synonym>
+    <attributes uuid="39d9b3fa-a988-434e-8884-2ba4faf38e18">
+      <name>ВидРабот</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид работ</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыРабот</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4b4ea5d7-6a94-49a6-83db-3a4a1da676d3">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9b09d443-7906-43f9-8b8b-3a8078832b10">
+      <name>V_RABOT</name>
+      <synonym>
+        <key>ru</key>
+        <value>V RABOT</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="830c076c-a3c3-4cda-a98a-3e8f514b69b5">
+      <name>CODE</name>
+      <synonym>
+        <key>ru</key>
+        <value>CODE</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9aaedf00-75d1-4ac3-9bb0-a6d64ef9df8a">
+      <name>D_START</name>
+      <synonym>
+        <key>ru</key>
+        <value>D START</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="f65bde47-ca56-4711-86b3-4c097367c326">
+    <name>ЗагрузкаИзФайлаПрейскурант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка из файла прейскурант</value>
+    </synonym>
+  </templates>
+  <templates uuid="a3d14bec-3a6a-40bf-93a6-1a9ebe9d579f">
+    <name>ЗагрузкаИзФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка из файла</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

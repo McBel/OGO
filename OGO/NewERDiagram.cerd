@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<diagram>
+	<tab name="OGO" projectName="OGO;">
+		<entities>
+			<entity x="497" y="-341" width="200" height="71" eClass="Catalog" uri="bm://OGO/Catalog.Договоры#/">
+			</entity>
+			<entity x="212" y="-340" width="200" height="55" eClass="Catalog" uri="bm://OGO/Catalog.Контрагенты#/">
+			</entity>
+		</entities>
+		<relations for="main">
+			<relation source="Справочник.Договоры" target="Справочник.Контрагенты">
+				<pathPoint x="497" y="-313"></pathPoint>
+				<pathPoint x="412" y="-313"></pathPoint>
+			</relation>
+		</relations>
+	</tab>
+</diagram>
